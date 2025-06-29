@@ -13,8 +13,8 @@ toolbarMode = "viewer"
 gatherUsageStats = false
 
 [global]
-minCachedMessageSize = 2MB
-maxCachedMessageSize = 200MB
+minCachedMessageSize = 2
+maxCachedMessageSize = 200
 
 [runner]
 magicEnabled = true
