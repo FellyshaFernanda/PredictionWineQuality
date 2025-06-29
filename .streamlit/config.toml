@@ -1,0 +1,24 @@
+# .streamlit/config.toml
+
+[server]
+port = 8501
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+
+[client]
+toolbarMode = "viewer"
+
+[browser]
+gatherUsageStats = false
+
+[global]
+minCachedMessageSize = 2MB
+maxCachedMessageSize = 200MB
+
+[runner]
+magicEnabled = true
+fastReruns = true
+
+[logger]
+level = "info"
